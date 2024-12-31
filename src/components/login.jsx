@@ -1,6 +1,6 @@
 
 import './login.css'
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { useNavigate } from 'react-router-dom';
 
 function Login() {
@@ -19,7 +19,7 @@ function Login() {
        
       </form>
       {/* <button onClick={() => navigate('/')}>Go to signup page</button> */}
-      {/* <Link to="/"><button>Go to Page signup</button></Link> */}
+      <Link to="/"><button>Go to Page signup</button></Link>
     </div>
     </>
   )
