@@ -49,7 +49,7 @@ function Signup() {
         <button type="submit">Sign Up</button>
       </form>
       {/* <button onClick={() => navigate('/login')}>Go to Page login</button> */}
-      {/* <Link to="/login"><button>Go to login page</button></Link> */}
+      <Link to="/login"><button>Go to login page</button></Link>
     </div>
       </>
     )
